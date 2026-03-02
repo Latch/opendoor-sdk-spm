@@ -1,0 +1,4 @@
+framework module OpenDOORCore {
+  header "OpenDOORCore-Swift.h"
+  requires objc
+}
