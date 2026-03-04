@@ -1,0 +1,397 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OpenDOORCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import Combine
+import CoreData
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct AccessLog : Swift.Equatable {
+  public var id: Foundation.UUID
+  public var epochTimeForEntryAttempt: Swift.Int64
+  public var imageFileName: Swift.String?
+  public var imageToken: Swift.String?
+  public var guestUUID: Foundation.UUID?
+  public var fullName: Swift.String?
+  public var method: OpenDOORCore.AccessLogMethod
+  public var result: OpenDOORCore.AccessLogResult
+  public var lockUUID: Foundation.UUID?
+  public var photoAvailability: Swift.String?
+  public var userFirstName: Swift.String?
+  public var userLastName: Swift.String?
+  public var userNickname: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Foundation.UUID, epochTimeForEntryAttempt: Swift.Int64, imageFileName: Swift.String?, imageToken: Swift.String?, guestUUID: Foundation.UUID?, fullName: Swift.String?, method: OpenDOORCore.AccessLogMethod, result: OpenDOORCore.AccessLogResult, lockUUID: Foundation.UUID?, photoAvailability: Swift.String?, userFirstName: Swift.String?, userLastName: Swift.String?, userNickname: Swift.String?)
+  #endif
+  public static func == (a: OpenDOORCore.AccessLog, b: OpenDOORCore.AccessLog) -> Swift.Bool
+}
+public enum AccessLogMethod {
+  case mko
+  case ble
+  case passcode
+  case nfc
+  case androidNFC
+  case desfire
+  case scheduledLock
+  case scheduledUnlock
+  case mechanical
+  case tapToLock
+  case bleLock
+  case unknown
+  public static func == (a: OpenDOORCore.AccessLogMethod, b: OpenDOORCore.AccessLogMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AccessLogResult {
+  case success
+  case lockSuccess
+  case guestSuccess
+  case outsideQualifiedAccess
+  case unknownTimeFailure
+  case nfcFailure
+  case incorrect
+  case deadboltApplied
+  case unknown
+  public static func == (a: OpenDOORCore.AccessLogResult, b: OpenDOORCore.AccessLogResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol DOORClient {
+  func setupWithToken(token: Swift.String, includeAllLocks: Swift.Bool) async throws
+  func clear() async throws
+  func fetchLocks() async throws -> [OpenDOORCore.Lock]
+  func listenForLocks() throws -> _Concurrency.AsyncStream<[OpenDOORCore.Lock]>
+  func listenForLocksPublisher() throws -> Combine.AnyPublisher<[OpenDOORCore.Lock], Swift.Never>
+  func listenForLocks(listener: any OpenDOORCore.LocksListener) throws
+  func stopListenForLocks(listener: any OpenDOORCore.LocksListener) throws
+  func unlock(lockID: Foundation.UUID) async throws
+  func startProximityUnlock() throws
+  func stopProximityUnlock() throws
+  func listenForUnlockEvents() throws -> _Concurrency.AsyncStream<OpenDOORCore.UnlockEvent>
+  func unlockEventsPublisher() throws -> Combine.AnyPublisher<OpenDOORCore.UnlockEvent, Swift.Never>
+  func listenForUnlockEvents(listener: any OpenDOORCore.UnlockEventsListener) throws
+  func stopListenForUnlockEvents(listener: any OpenDOORCore.UnlockEventsListener) throws
+  func sync(lockID: Foundation.UUID) async throws
+  func getAccessLogs(lockID: Foundation.UUID) async throws -> [OpenDOORCore.AccessLog]
+  #if compiler(>=5.3) && $NonescapableTypes
+  func inviteGuest(firstName: Swift.String, lastName: Swift.String, email: Swift.String?, phone: Swift.String?, lockIDs: [Foundation.UUID], inviteType: any OpenDOORCore.InviteType) async throws
+  #endif
+  func revokeGuestAllAccesses(guestID: Foundation.UUID) async throws
+  func revokeGuestAccess(guestID: Foundation.UUID, lockID: Foundation.UUID) async throws
+  func guests() async throws -> [OpenDOORCore.Guest]
+  func setLogLevel(_ level: OpenDOORCore.LogLevel)
+}
+public enum BluetoothError : OpenDOORCore.OpenDOORSDKError {
+  case bluetoothDisabled
+  case bluetoothPermissionDenied
+  public static func == (a: OpenDOORCore.BluetoothError, b: OpenDOORCore.BluetoothError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension OpenDOORCore.BluetoothError {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct GuestInvitesError : OpenDOORCore.OpenDOORSDKError {
+  public let failedLockErrors: [OpenDOORCore.LockActionError]
+  public let successfulLockIDs: [Foundation.UUID]
+  public var failedLockIDs: [Foundation.UUID] {
+    get
+  }
+}
+extension OpenDOORCore.GuestInvitesError {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum InviteGuestError : Swift.String, OpenDOORCore.OpenDOORSDKError {
+  case emailRequired
+  case emailOrPhoneRequired
+  case emailAndPhoneProvided
+  case invalidPhone
+  case invalidStartTime
+  case endTimeNotSupported
+  case userCanNotShare
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension OpenDOORCore.InviteGuestError {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct LockActionError : OpenDOORCore.OpenDOORSDKError {
+  public let lockID: Foundation.UUID
+  public let error: any OpenDOORCore.OpenDOORSDKError
+  public init(lockID: Foundation.UUID, error: any OpenDOORCore.OpenDOORSDKError)
+}
+extension OpenDOORCore.LockActionError {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum NetworkError : OpenDOORCore.OpenDOORSDKError {
+  case invalidToken
+  case payloadError(Swift.String)
+  case internalNetworkError(Swift.String)
+}
+extension OpenDOORCore.NetworkError {
+  public var description: Swift.String {
+    get
+  }
+}
+public protocol OpenDOORSDKError : Foundation.LocalizedError, Swift.CustomStringConvertible {
+}
+extension OpenDOORCore.OpenDOORSDKError {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+}
+public enum RevokeGuestError : OpenDOORCore.OpenDOORSDKError {
+  case passcodeTypeCantBeRevoked
+  case deviceNotFound
+  case `internal`(Swift.String)
+}
+extension OpenDOORCore.RevokeGuestError {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum SDKError : OpenDOORCore.OpenDOORSDKError {
+  case sdkNotInitialized
+  case sdkInternalError(Swift.String)
+}
+extension OpenDOORCore.SDKError {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum SetupError : OpenDOORCore.OpenDOORSDKError {
+  case invalidToken
+  case consentNotGranted
+  case setupInternalError(Swift.String)
+}
+extension OpenDOORCore.SetupError {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum SyncError : OpenDOORCore.OpenDOORSDKError {
+  case lockNotFound(Swift.String)
+  case canceled
+  case unlockInProgress
+  case syncInternalError(Swift.String)
+}
+extension OpenDOORCore.SyncError {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum UnlockError : OpenDOORCore.OpenDOORSDKError {
+  case lockNotFound(Swift.String)
+}
+extension OpenDOORCore.UnlockError {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum AccessType {
+  case enter
+  case reach
+  public static func == (a: OpenDOORCore.AccessType, b: OpenDOORCore.AccessType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Duration {
+  case limit15Minutes
+  case fullDay
+  public static func == (a: OpenDOORCore.Duration, b: OpenDOORCore.Duration) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Guest : Swift.Equatable {
+  public var id: Foundation.UUID
+  public var firstName: Swift.String
+  public var lastName: Swift.String?
+  public var email: Swift.String?
+  public var phone: Swift.String?
+  public var guestAccesses: [OpenDOORCore.GuestAccess]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Foundation.UUID, firstName: Swift.String, lastName: Swift.String?, email: Swift.String?, phone: Swift.String?, guestAccesses: [OpenDOORCore.GuestAccess])
+  #endif
+  public static func == (a: OpenDOORCore.Guest, b: OpenDOORCore.Guest) -> Swift.Bool
+}
+public struct GuestAccess : Swift.Equatable {
+  public var lockID: Foundation.UUID
+  public var lockName: Swift.String
+  public var startTime: Foundation.Date
+  public var inviteType: any OpenDOORCore.InviteType
+  public init(lockID: Foundation.UUID, lockName: Swift.String, startTime: Foundation.Date, inviteType: any OpenDOORCore.InviteType)
+}
+extension OpenDOORCore.GuestAccess {
+  public static func == (lhs: OpenDOORCore.GuestAccess, rhs: OpenDOORCore.GuestAccess) -> Swift.Bool
+}
+public struct InAppInvite : OpenDOORCore.InviteType {
+  public var accessType: OpenDOORCore.AccessType?
+  public var startTime: Foundation.Date
+  public var endTime: Foundation.Date?
+  public var showDoorcodes: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(accessType: OpenDOORCore.AccessType?, startTime: Foundation.Date, endTime: Foundation.Date? = nil, showDoorcodes: Swift.Bool?)
+  #endif
+}
+extension OpenDOORCore.InAppInvite : Swift.Equatable {
+  public static func == (a: OpenDOORCore.InAppInvite, b: OpenDOORCore.InAppInvite) -> Swift.Bool
+}
+public protocol InviteType {
+  #if compiler(>=5.3) && $NonescapableTypes
+  var accessType: OpenDOORCore.AccessType? { get set }
+  #endif
+}
+public enum PasscodeType : Swift.String, Swift.CaseIterable {
+  case permanent
+  case daily
+  case dailySingleUse
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [OpenDOORCore.PasscodeType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [OpenDOORCore.PasscodeType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Period {
+  case today
+  case tomorrow
+  public static func == (a: OpenDOORCore.Period, b: OpenDOORCore.Period) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TemporaryDoorcodeInvite : OpenDOORCore.InviteType {
+  public var accessType: OpenDOORCore.AccessType?
+  public var duration: OpenDOORCore.Duration
+  public var period: OpenDOORCore.Period
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(accessType: OpenDOORCore.AccessType?, duration: OpenDOORCore.Duration, period: OpenDOORCore.Period)
+  #endif
+}
+extension OpenDOORCore.TemporaryDoorcodeInvite : Swift.Equatable {
+  public static func == (a: OpenDOORCore.TemporaryDoorcodeInvite, b: OpenDOORCore.TemporaryDoorcodeInvite) -> Swift.Bool
+}
+public struct Lock : Swift.Equatable {
+  public var id: Foundation.UUID
+  public var name: Swift.String
+  public var buildingID: Foundation.UUID
+  public var isShareable: Swift.Bool
+  public var startTime: Foundation.Date
+  public var endTime: Foundation.Date?
+  public var doorCode: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Foundation.UUID, name: Swift.String, buildingID: Foundation.UUID, isShareable: Swift.Bool, startTime: Foundation.Date, endTime: Foundation.Date?, doorCode: Swift.String?)
+  #endif
+  public static func == (a: OpenDOORCore.Lock, b: OpenDOORCore.Lock) -> Swift.Bool
+}
+public protocol LocksListener : AnyObject {
+  func onUpdate(locks: [OpenDOORCore.Lock])
+}
+public enum LogLevel {
+  case debug
+  case error
+  public static func == (a: OpenDOORCore.LogLevel, b: OpenDOORCore.LogLevel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum OpenDOOR {
+  public static func getInstance() async -> any OpenDOORCore.DOORClient
+}
+public struct UnlockEvent : Swift.Equatable {
+  public var lock: OpenDOORCore.Lock?
+  public var status: OpenDOORCore.UnlockEventStatus
+  public var method: OpenDOORCore.UnlockEventMethod
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(lock: OpenDOORCore.Lock?, status: OpenDOORCore.UnlockEventStatus, method: OpenDOORCore.UnlockEventMethod)
+  #endif
+  public static func == (a: OpenDOORCore.UnlockEvent, b: OpenDOORCore.UnlockEvent) -> Swift.Bool
+}
+public enum UnlockEventMethod : Swift.Equatable {
+  case explicit
+  case proximity
+  public static func == (a: OpenDOORCore.UnlockEventMethod, b: OpenDOORCore.UnlockEventMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum UnlockEventStatus : Swift.Equatable {
+  case started
+  case failed(OpenDOORCore.UnlockFailureReason)
+  case canceled
+  case success
+  public static func == (a: OpenDOORCore.UnlockEventStatus, b: OpenDOORCore.UnlockEventStatus) -> Swift.Bool
+}
+public protocol UnlockEventsListener : AnyObject {
+  func onNewEvent(event: OpenDOORCore.UnlockEvent)
+}
+public enum UnlockFailureReason : Swift.Error, Swift.Equatable {
+  case bluetoothDisabled
+  case outOfSchedule
+  case timeout
+  case unlockInternalError(Swift.String)
+  public static func == (a: OpenDOORCore.UnlockFailureReason, b: OpenDOORCore.UnlockFailureReason) -> Swift.Bool
+}
+extension OpenDOORCore.UnlockFailureReason : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension OpenDOORCore.AccessLogMethod : Swift.Equatable {}
+extension OpenDOORCore.AccessLogMethod : Swift.Hashable {}
+extension OpenDOORCore.AccessLogResult : Swift.Equatable {}
+extension OpenDOORCore.AccessLogResult : Swift.Hashable {}
+extension OpenDOORCore.UnlockEventMethod : Swift.Hashable {}
+extension OpenDOORCore.PasscodeType : Swift.Equatable {}
+extension OpenDOORCore.PasscodeType : Swift.Hashable {}
+extension OpenDOORCore.PasscodeType : Swift.RawRepresentable {}
+extension OpenDOORCore.AccessType : Swift.Equatable {}
+extension OpenDOORCore.AccessType : Swift.Hashable {}
+extension OpenDOORCore.LogLevel : Swift.Equatable {}
+extension OpenDOORCore.LogLevel : Swift.Hashable {}
+extension OpenDOORCore.BluetoothError : Swift.Equatable {}
+extension OpenDOORCore.BluetoothError : Swift.Hashable {}
+extension OpenDOORCore.InviteGuestError : Swift.Equatable {}
+extension OpenDOORCore.InviteGuestError : Swift.Hashable {}
+extension OpenDOORCore.InviteGuestError : Swift.RawRepresentable {}
+extension OpenDOORCore.Duration : Swift.Equatable {}
+extension OpenDOORCore.Duration : Swift.Hashable {}
+extension OpenDOORCore.Period : Swift.Equatable {}
+extension OpenDOORCore.Period : Swift.Hashable {}
