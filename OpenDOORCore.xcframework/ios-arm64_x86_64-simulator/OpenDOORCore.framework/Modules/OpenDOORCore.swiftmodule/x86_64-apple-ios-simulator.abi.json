@@ -4219,6 +4219,31 @@
           },
           {
             "kind": "Function",
+            "name": "cancelUnlock",
+            "printedName": "cancelUnlock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore10DOORClientP12cancelUnlockyyKF",
+            "mangledName": "$s12OpenDOORCore10DOORClientP12cancelUnlockyyKF",
+            "moduleName": "OpenDOORCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : OpenDOORCore.DOORClient>",
+            "sugared_genericSig": "<Self where Self : OpenDOORCore.DOORClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "startProximityUnlock",
             "printedName": "startProximityUnlock()",
             "children": [
@@ -12091,6 +12116,80 @@
             "moduleName": "OpenDOORCore"
           },
           {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.LogLevel.Type) -> OpenDOORCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "OpenDOORCore.LogLevel",
+                    "usr": "s:12OpenDOORCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "OpenDOORCore.LogLevel",
+                        "usr": "s:12OpenDOORCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore8LogLevelO4infoyA2CmF",
+            "mangledName": "$s12OpenDOORCore8LogLevelO4infoyA2CmF",
+            "moduleName": "OpenDOORCore"
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.LogLevel.Type) -> OpenDOORCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "OpenDOORCore.LogLevel",
+                    "usr": "s:12OpenDOORCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "OpenDOORCore.LogLevel",
+                        "usr": "s:12OpenDOORCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore8LogLevelO7warningyA2CmF",
+            "mangledName": "$s12OpenDOORCore8LogLevelO7warningyA2CmF",
+            "moduleName": "OpenDOORCore"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -12975,6 +13074,46 @@
           },
           {
             "kind": "Var",
+            "name": "setupSync",
+            "printedName": "setupSync",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockEventStatus.Type) -> OpenDOORCore.UnlockEventStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockEventStatus",
+                    "printedName": "OpenDOORCore.UnlockEventStatus",
+                    "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockEventStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventStatus",
+                        "printedName": "OpenDOORCore.UnlockEventStatus",
+                        "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockEventStatusO9setupSyncyA2CmF",
+            "mangledName": "$s12OpenDOORCore17UnlockEventStatusO9setupSyncyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "failed",
             "printedName": "failed",
             "children": [
@@ -13341,13 +13480,26 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(OpenDOORCore.UnlockFailureReason.Type) -> OpenDOORCore.UnlockFailureReason",
+                "printedName": "(OpenDOORCore.UnlockFailureReason.Type) -> (Swift.String) -> OpenDOORCore.UnlockFailureReason",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "UnlockFailureReason",
-                    "printedName": "OpenDOORCore.UnlockFailureReason",
-                    "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OpenDOORCore.UnlockFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockFailureReason",
+                        "printedName": "OpenDOORCore.UnlockFailureReason",
+                        "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   },
                   {
                     "kind": "TypeNominal",
@@ -13366,8 +13518,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12OpenDOORCore19UnlockFailureReasonO7timeoutyA2CmF",
-            "mangledName": "$s12OpenDOORCore19UnlockFailureReasonO7timeoutyA2CmF",
+            "usr": "s:12OpenDOORCore19UnlockFailureReasonO7timeoutyACSScACmF",
+            "mangledName": "$s12OpenDOORCore19UnlockFailureReasonO7timeoutyACSScACmF",
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "RawDocComment"
@@ -13763,8 +13915,15 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
       "kind": "Dictionary",
-      "offset": 7355,
+      "offset": 8695,
       "length": 3,
       "value": "[]"
     },
