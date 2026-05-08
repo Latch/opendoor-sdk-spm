@@ -6,7 +6,7 @@ This repository contains the OpenDOOR iOS SDK distributed via Swift Package Mana
 
 For the full integration tutorial (setup, initialization, and usage), see:
 
-- [OpenDOOR iOS SDK Tutorial](https://github.com/Latch/opendoor-readme/blob/v2.0.0/docs/Mobile/opendoor-ios-sdk.md)
+- [OpenDOOR iOS SDK Tutorial](https://developers.door.com/docs/ios-docs)
 
 ## Install with Swift Package Manager
 
@@ -21,7 +21,7 @@ For the full integration tutorial (setup, initialization, and usage), see:
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/Latch/opendoor-sdk-spm.git", from: "2.0.0")
+  .package(url: "https://github.com/Latch/opendoor-sdk-spm.git", from: "2.1.0")
 ]
 ```
 
