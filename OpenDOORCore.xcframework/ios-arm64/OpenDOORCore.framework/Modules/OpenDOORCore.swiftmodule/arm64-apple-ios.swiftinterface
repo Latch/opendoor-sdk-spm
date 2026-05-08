@@ -73,6 +73,7 @@ public protocol DOORClient {
   func listenForLocks(listener: any OpenDOORCore.LocksListener) throws
   func stopListenForLocks(listener: any OpenDOORCore.LocksListener) throws
   func unlock(lockID: Foundation.UUID) async throws
+  func cancelUnlock() throws
   func startProximityUnlock() throws
   func stopProximityUnlock() throws
   func listenForUnlockEvents() throws -> _Concurrency.AsyncStream<OpenDOORCore.UnlockEvent>
@@ -325,6 +326,8 @@ public protocol LocksListener : AnyObject {
 public enum LogLevel {
   case debug
   case error
+  case info
+  case warning
   public static func == (a: OpenDOORCore.LogLevel, b: OpenDOORCore.LogLevel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -354,6 +357,7 @@ public enum UnlockEventMethod : Swift.Equatable {
 }
 public enum UnlockEventStatus : Swift.Equatable {
   case started
+  case setupSync
   case failed(OpenDOORCore.UnlockFailureReason)
   case canceled
   case success
@@ -365,7 +369,7 @@ public protocol UnlockEventsListener : AnyObject {
 public enum UnlockFailureReason : Swift.Error, Swift.Equatable {
   case bluetoothDisabled
   case outOfSchedule
-  case timeout
+  case timeout(Swift.String)
   case unlockInternalError(Swift.String)
   public static func == (a: OpenDOORCore.UnlockFailureReason, b: OpenDOORCore.UnlockFailureReason) -> Swift.Bool
 }
