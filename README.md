@@ -21,7 +21,7 @@ For the full integration tutorial (setup, initialization, and usage), see:
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/Latch/opendoor-sdk-spm.git", from: "2.0.0")
+  .package(url: "https://github.com/Latch/opendoor-sdk-spm.git", from: "2.1.0")
 ]
 ```
 
