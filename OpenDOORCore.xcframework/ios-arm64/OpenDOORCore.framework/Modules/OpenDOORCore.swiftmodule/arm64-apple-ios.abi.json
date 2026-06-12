@@ -587,6 +587,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -651,6 +658,50 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
+        "name": "LatchBluetooth",
+        "printedName": "LatchBluetooth",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LatchCore",
+        "printedName": "LatchCore",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnlockKit",
+        "printedName": "UnlockKit",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -672,6 +723,13 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
       },
       {
         "kind": "Import",
@@ -1175,6 +1233,20 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "OpenDOORCore"
       },
@@ -2769,17 +2841,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3390,17 +3462,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3898,17 +3970,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4998,13 +5070,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -5051,6 +5116,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -5299,31 +5371,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "OpenDOORSDKError",
             "printedName": "OpenDOORSDKError",
             "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
             "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -5334,10 +5385,31 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5773,6 +5845,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "OpenDOORSDKError",
+            "printedName": "OpenDOORSDKError",
+            "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
+            "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -5784,20 +5870,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -5823,10 +5895,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "OpenDOORSDKError",
-            "printedName": "OpenDOORSDKError",
-            "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
-            "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -5834,13 +5906,6 @@
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LocalizedError",
-            "printedName": "LocalizedError",
-            "usr": "s:10Foundation14LocalizedErrorP",
-            "mangledName": "$s10Foundation14LocalizedErrorP"
           },
           {
             "kind": "Conformance",
@@ -5855,6 +5920,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -6054,31 +6126,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "OpenDOORSDKError",
             "printedName": "OpenDOORSDKError",
             "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
             "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -6089,10 +6140,31 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6322,31 +6394,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "OpenDOORSDKError",
             "printedName": "OpenDOORSDKError",
             "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
             "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -6357,10 +6408,31 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6708,31 +6780,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "OpenDOORSDKError",
             "printedName": "OpenDOORSDKError",
             "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
             "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -6743,10 +6794,31 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6923,31 +6995,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "OpenDOORSDKError",
             "printedName": "OpenDOORSDKError",
             "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
             "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -6958,10 +7009,31 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7178,31 +7250,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "OpenDOORSDKError",
             "printedName": "OpenDOORSDKError",
             "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
             "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -7213,10 +7264,31 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7486,31 +7558,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "OpenDOORSDKError",
             "printedName": "OpenDOORSDKError",
             "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
             "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -7521,10 +7572,31 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7661,31 +7733,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "OpenDOORSDKError",
             "printedName": "OpenDOORSDKError",
             "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
             "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -7696,10 +7747,31 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7924,17 +7996,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -8152,17 +8224,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -8940,17 +9012,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -9406,17 +9478,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -9962,20 +10034,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "InviteType",
             "printedName": "InviteType",
             "usr": "s:12OpenDOORCore10InviteTypeP",
@@ -9983,10 +10041,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -10430,17 +10502,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -10710,17 +10782,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -11115,20 +11187,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "InviteType",
             "printedName": "InviteType",
             "usr": "s:12OpenDOORCore10InviteTypeP",
@@ -11136,10 +11194,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -11937,17 +12009,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12303,17 +12375,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -12388,6 +12460,234 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnlockAttempt",
+        "printedName": "UnlockAttempt",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "first",
+            "printedName": "first",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockAttempt.Type) -> OpenDOORCore.UnlockAttempt",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockAttempt",
+                    "printedName": "OpenDOORCore.UnlockAttempt",
+                    "usr": "s:12OpenDOORCore13UnlockAttemptO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockAttempt.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockAttempt",
+                        "printedName": "OpenDOORCore.UnlockAttempt",
+                        "usr": "s:12OpenDOORCore13UnlockAttemptO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore13UnlockAttemptO5firstyA2CmF",
+            "mangledName": "$s12OpenDOORCore13UnlockAttemptO5firstyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "second",
+            "printedName": "second",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockAttempt.Type) -> OpenDOORCore.UnlockAttempt",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockAttempt",
+                    "printedName": "OpenDOORCore.UnlockAttempt",
+                    "usr": "s:12OpenDOORCore13UnlockAttemptO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockAttempt.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockAttempt",
+                        "printedName": "OpenDOORCore.UnlockAttempt",
+                        "usr": "s:12OpenDOORCore13UnlockAttemptO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore13UnlockAttemptO6secondyA2CmF",
+            "mangledName": "$s12OpenDOORCore13UnlockAttemptO6secondyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore13UnlockAttemptO9hashValueSivp",
+            "mangledName": "$s12OpenDOORCore13UnlockAttemptO9hashValueSivp",
+            "moduleName": "OpenDOORCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore13UnlockAttemptO9hashValueSivg",
+                "mangledName": "$s12OpenDOORCore13UnlockAttemptO9hashValueSivg",
+                "moduleName": "OpenDOORCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore13UnlockAttemptO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12OpenDOORCore13UnlockAttemptO4hash4intoys6HasherVz_tF",
+            "moduleName": "OpenDOORCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnlockAttempt",
+                "printedName": "OpenDOORCore.UnlockAttempt",
+                "usr": "s:12OpenDOORCore13UnlockAttemptO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnlockAttempt",
+                "printedName": "OpenDOORCore.UnlockAttempt",
+                "usr": "s:12OpenDOORCore13UnlockAttemptO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore13UnlockAttemptO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12OpenDOORCore13UnlockAttemptO2eeoiySbAC_ACtFZ",
+            "moduleName": "OpenDOORCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12OpenDOORCore13UnlockAttemptO",
+        "mangledName": "$s12OpenDOORCore13UnlockAttemptO",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -12784,17 +13084,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -13074,8 +13374,128 @@
           },
           {
             "kind": "Var",
+            "name": "connectForSetupSync",
+            "printedName": "connectForSetupSync",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockEventStatus.Type) -> (OpenDOORCore.UnlockAttempt) -> OpenDOORCore.UnlockEventStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OpenDOORCore.UnlockAttempt) -> OpenDOORCore.UnlockEventStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventStatus",
+                        "printedName": "OpenDOORCore.UnlockEventStatus",
+                        "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(attempt: OpenDOORCore.UnlockAttempt)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnlockAttempt",
+                            "printedName": "OpenDOORCore.UnlockAttempt",
+                            "usr": "s:12OpenDOORCore13UnlockAttemptO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockEventStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventStatus",
+                        "printedName": "OpenDOORCore.UnlockEventStatus",
+                        "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockEventStatusO19connectForSetupSyncyAcA0C7AttemptO_tcACmF",
+            "mangledName": "$s12OpenDOORCore17UnlockEventStatusO19connectForSetupSyncyAcA0C7AttemptO_tcACmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "setupSync",
             "printedName": "setupSync",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockEventStatus.Type) -> (OpenDOORCore.UnlockAttempt) -> OpenDOORCore.UnlockEventStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OpenDOORCore.UnlockAttempt) -> OpenDOORCore.UnlockEventStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventStatus",
+                        "printedName": "OpenDOORCore.UnlockEventStatus",
+                        "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(attempt: OpenDOORCore.UnlockAttempt)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnlockAttempt",
+                            "printedName": "OpenDOORCore.UnlockAttempt",
+                            "usr": "s:12OpenDOORCore13UnlockAttemptO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockEventStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventStatus",
+                        "printedName": "OpenDOORCore.UnlockEventStatus",
+                        "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockEventStatusO9setupSyncyAcA0C7AttemptO_tcACmF",
+            "mangledName": "$s12OpenDOORCore17UnlockEventStatusO9setupSyncyAcA0C7AttemptO_tcACmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "updateSyncPackage",
+            "printedName": "updateSyncPackage",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -13105,8 +13525,128 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12OpenDOORCore17UnlockEventStatusO9setupSyncyA2CmF",
-            "mangledName": "$s12OpenDOORCore17UnlockEventStatusO9setupSyncyA2CmF",
+            "usr": "s:12OpenDOORCore17UnlockEventStatusO17updateSyncPackageyA2CmF",
+            "mangledName": "$s12OpenDOORCore17UnlockEventStatusO17updateSyncPackageyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectForUnlock",
+            "printedName": "connectForUnlock",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockEventStatus.Type) -> (OpenDOORCore.UnlockAttempt) -> OpenDOORCore.UnlockEventStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OpenDOORCore.UnlockAttempt) -> OpenDOORCore.UnlockEventStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventStatus",
+                        "printedName": "OpenDOORCore.UnlockEventStatus",
+                        "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(attempt: OpenDOORCore.UnlockAttempt)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnlockAttempt",
+                            "printedName": "OpenDOORCore.UnlockAttempt",
+                            "usr": "s:12OpenDOORCore13UnlockAttemptO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockEventStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventStatus",
+                        "printedName": "OpenDOORCore.UnlockEventStatus",
+                        "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockEventStatusO010connectForC0yAcA0C7AttemptO_tcACmF",
+            "mangledName": "$s12OpenDOORCore17UnlockEventStatusO010connectForC0yAcA0C7AttemptO_tcACmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unlock",
+            "printedName": "unlock",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockEventStatus.Type) -> (OpenDOORCore.UnlockAttempt) -> OpenDOORCore.UnlockEventStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OpenDOORCore.UnlockAttempt) -> OpenDOORCore.UnlockEventStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventStatus",
+                        "printedName": "OpenDOORCore.UnlockEventStatus",
+                        "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(attempt: OpenDOORCore.UnlockAttempt)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnlockAttempt",
+                            "printedName": "OpenDOORCore.UnlockAttempt",
+                            "usr": "s:12OpenDOORCore13UnlockAttemptO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockEventStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventStatus",
+                        "printedName": "OpenDOORCore.UnlockEventStatus",
+                        "usr": "s:12OpenDOORCore17UnlockEventStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockEventStatusO6unlockyAcA0C7AttemptO_tcACmF",
+            "mangledName": "$s12OpenDOORCore17UnlockEventStatusO6unlockyAcA0C7AttemptO_tcACmF",
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "RawDocComment"
@@ -13296,17 +13836,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -13474,32 +14014,19 @@
           },
           {
             "kind": "Var",
-            "name": "timeout",
-            "printedName": "timeout",
+            "name": "lockNotFound",
+            "printedName": "lockNotFound",
             "children": [
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(OpenDOORCore.UnlockFailureReason.Type) -> (Swift.String) -> OpenDOORCore.UnlockFailureReason",
+                "printedName": "(OpenDOORCore.UnlockFailureReason.Type) -> OpenDOORCore.UnlockFailureReason",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> OpenDOORCore.UnlockFailureReason",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UnlockFailureReason",
-                        "printedName": "OpenDOORCore.UnlockFailureReason",
-                        "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "UnlockFailureReason",
+                    "printedName": "OpenDOORCore.UnlockFailureReason",
+                    "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -13518,8 +14045,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12OpenDOORCore19UnlockFailureReasonO7timeoutyACSScACmF",
-            "mangledName": "$s12OpenDOORCore19UnlockFailureReasonO7timeoutyACSScACmF",
+            "usr": "s:12OpenDOORCore19UnlockFailureReasonO12lockNotFoundyA2CmF",
+            "mangledName": "$s12OpenDOORCore19UnlockFailureReasonO12lockNotFoundyA2CmF",
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "RawDocComment"
@@ -13527,8 +14054,88 @@
           },
           {
             "kind": "Var",
-            "name": "unlockInternalError",
-            "printedName": "unlockInternalError",
+            "name": "connectionFailed",
+            "printedName": "connectionFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockFailureReason.Type) -> OpenDOORCore.UnlockFailureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockFailureReason",
+                    "printedName": "OpenDOORCore.UnlockFailureReason",
+                    "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockFailureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockFailureReason",
+                        "printedName": "OpenDOORCore.UnlockFailureReason",
+                        "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore19UnlockFailureReasonO16connectionFailedyA2CmF",
+            "mangledName": "$s12OpenDOORCore19UnlockFailureReasonO16connectionFailedyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authFailed",
+            "printedName": "authFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockFailureReason.Type) -> OpenDOORCore.UnlockFailureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockFailureReason",
+                    "printedName": "OpenDOORCore.UnlockFailureReason",
+                    "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockFailureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockFailureReason",
+                        "printedName": "OpenDOORCore.UnlockFailureReason",
+                        "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore19UnlockFailureReasonO10authFailedyA2CmF",
+            "mangledName": "$s12OpenDOORCore19UnlockFailureReasonO10authFailedyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "internal",
+            "printedName": "internal",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -13571,8 +14178,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12OpenDOORCore19UnlockFailureReasonO19unlockInternalErroryACSScACmF",
-            "mangledName": "$s12OpenDOORCore19UnlockFailureReasonO19unlockInternalErroryACSScACmF",
+            "usr": "s:12OpenDOORCore19UnlockFailureReasonO8internalyACSScACmF",
+            "mangledName": "$s12OpenDOORCore19UnlockFailureReasonO8internalyACSScACmF",
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "RawDocComment"
@@ -13671,10 +14278,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -13692,6 +14299,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -13703,13 +14317,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
           }
         ]
       }
@@ -13908,24 +14515,73 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
+      "kind": "Array",
+      "offset": 1628,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
       "kind": "Dictionary",
-      "offset": 2249,
+      "offset": 2372,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
       "kind": "IntegerLiteral",
-      "offset": 293,
+      "offset": 309,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
       "kind": "Dictionary",
-      "offset": 8695,
+      "offset": 8241,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceScanBroker.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 33,
+      "value": "\"com.door.deviceScanBroker.cache\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceScanBroker.swift",
+      "kind": "Array",
+      "offset": 1134,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/ScanCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 32,
+      "value": "\"com.door.deviceController.scan\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/ScanCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 706,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/ScanCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 737,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Extensions\/GroupKeychainExtensions.swift",
