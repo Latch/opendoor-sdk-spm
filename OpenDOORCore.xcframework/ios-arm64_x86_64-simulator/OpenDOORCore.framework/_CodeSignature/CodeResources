@@ -6,15 +6,15 @@
 	<dict>
 		<key>Alamofire_Alamofire.bundle/Info.plist</key>
 		<data>
-		InZsws6vGW3/67oMkP7lzT6wc7c=
+		R6X+LSHrklVw8iFMOllUhc4sf1s=
 		</data>
 		<key>Alamofire_Alamofire.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
-		ovFJMFOLMjzh8DLJKmXncj8JIgU=
+		ucg9pita0v8d353x3NuGfxweQYU=
 		</data>
 		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		aKAzZF9yoMGD28qXV5SbXAeth7U=
+		YCiDBBhXrbmbJgJ16Ju3jo0ghFk=
 		</data>
 		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		jdngcXeDI0UZLHZoMPnZUfVtbC0=
+		nyD3nJ/32oXUnmRULQQv3MsyC+k=
 		</data>
 		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>CocoaLumberjack_CocoaLumberjack.bundle/Info.plist</key>
 		<data>
-		GsBpZL4lXyUwXZGDKq6qquHwEn8=
+		H1qS87RMQZepTtiAdU47aEV6u7E=
 		</data>
 		<key>CocoaLumberjack_CocoaLumberjack.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>CocoaLumberjack_CocoaLumberjack.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		Uc9ElZLTxK5wRrJE8gdy8mgRzLk=
+		4OOjHAJhrG6JMdrxig3pDIut/b0=
 		</data>
 		<key>CocoaLumberjack_CocoaLumberjack.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -52,61 +52,13 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
-		<key>Datadog_DatadogCore.bundle/Info.plist</key>
-		<data>
-		LZXoyUM+nADELoilX6+4ovEQYuA=
-		</data>
-		<key>Datadog_DatadogCore.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		X2q7ddfk5m7tiNd2H1x0uW5P9F4=
-		</data>
-		<key>Datadog_DatadogCore.bundle/_CodeSignature/CodeDirectory</key>
-		<data>
-		B7b9CfG0pIOckDCVJ2zvgSTk1Qk=
-		</data>
-		<key>Datadog_DatadogCore.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Datadog_DatadogCore.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		IanzGM7BIBAcbsDZfETUJ2++ERc=
-		</data>
-		<key>Datadog_DatadogCore.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
-		<key>Datadog_DatadogCrashReporting.bundle/Info.plist</key>
-		<data>
-		uo/Uj2YyOsBvPxWGS2UPls9SOEk=
-		</data>
-		<key>Datadog_DatadogCrashReporting.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		lbZy4IMF6myLy1VYRPpJk3drcGc=
-		</data>
-		<key>Datadog_DatadogCrashReporting.bundle/_CodeSignature/CodeDirectory</key>
-		<data>
-		O++3XMVcT1fEa0nCWOZ3jzjm4CI=
-		</data>
-		<key>Datadog_DatadogCrashReporting.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Datadog_DatadogCrashReporting.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		7RS+jxMtfVNEIHrC2ZVqAfUeiOk=
-		</data>
-		<key>Datadog_DatadogCrashReporting.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>Headers/OpenDOORCore-Swift.h</key>
 		<data>
 		pMsTgYwtNojsfeS8weUNMw1s0OI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GAk0E1xuVoGtYC7DL05fYpkW7o4=
+		MnDd5+rM1UUcwILMInXapuq4w0c=
 		</data>
 		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 10.mom</key>
 		<data>
@@ -368,13 +320,17 @@
 		<data>
 		d1kVC35lHcZ/sYj+qYxsnMEIbvk=
 		</data>
-		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 69.omo</key>
-		<data>
-		MNUDnI2DUgS/1zAwi4cSuD8kVm0=
-		</data>
 		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 7.mom</key>
 		<data>
 		0R4GBAXNI4m8yuva7kEkGd3M9nk=
+		</data>
+		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 70.mom</key>
+		<data>
+		OdyPQSp8Sqt08+hef0DwZTL1TuA=
+		</data>
+		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 70.omo</key>
+		<data>
+		bAKtB33SdT3uebzZfkmQanNIm6M=
 		</data>
 		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 8.mom</key>
 		<data>
@@ -390,11 +346,11 @@
 		</data>
 		<key>LatchKit_Persistence.bundle/AppModel.momd/VersionInfo.plist</key>
 		<data>
-		Dq00iAXHIyNpXTyQg9CuHIL9NqA=
+		Gh/YKFIU+20ueg8a4BjClrCyY8o=
 		</data>
 		<key>LatchKit_Persistence.bundle/Info.plist</key>
 		<data>
-		csjhqaxfW6bbLd9+Jwx+r312trg=
+		nYUnFOnLIcTz45G8yWlO6bxKg0w=
 		</data>
 		<key>LatchKit_Persistence.bundle/Migration50to51.cdm</key>
 		<data>
@@ -402,7 +358,7 @@
 		</data>
 		<key>LatchKit_Persistence.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		i8ezMCGS3EQBNmRnRMRjmL+Cwx0=
+		cxXI44zENUMLa6TRxR2TqLICbSE=
 		</data>
 		<key>LatchKit_Persistence.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -410,7 +366,7 @@
 		</data>
 		<key>LatchKit_Persistence.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		Uw9iVV53GthVGPOCX7UIi2dEkGs=
+		S6dgjSy2pMlE60ex7ne1I99KUXU=
 		</data>
 		<key>LatchKit_Persistence.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -442,11 +398,11 @@
 		</data>
 		<key>LatchNetworking_LatchNetworking.bundle/Info.plist</key>
 		<data>
-		xnkkroUar4FbVmrjKdrB7jhPUpU=
+		T0vRP4gskb4at2ZKyd0AHqwAUIg=
 		</data>
 		<key>LatchNetworking_LatchNetworking.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		Oo2frQfaNx2VOPeisDRjx8jVQy0=
+		Qg2MUHeRzog9BA4Ay+xvpAXcLxA=
 		</data>
 		<key>LatchNetworking_LatchNetworking.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -462,83 +418,59 @@
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WiS9sjkwKQ0ohRbc26vaVnhwzXA=
+		JQOTFihOnvk5snFW19XyBmAtDVU=
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kg/Cd3k6CZAaEHmYKP/jVXQG/TQ=
+		iHnuSyVe9Olzy7yJerhGtKH1N/E=
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MCtvM+/8kmuCVe0xzaRdmaI85Uc=
+		s6XUjccNiuifFcpuSUItgu9ul3U=
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kg/Cd3k6CZAaEHmYKP/jVXQG/TQ=
+		iHnuSyVe9Olzy7yJerhGtKH1N/E=
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L2dJgsXgc4FFmAWF/Q2L27iuJfE=
+		F/6Rqx9Lwbjl6N1a3aoMwd+T860=
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WiS9sjkwKQ0ohRbc26vaVnhwzXA=
+		JQOTFihOnvk5snFW19XyBmAtDVU=
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eWSb+zdW39/pxjgnjaRwKDpWINk=
+		Lmarawp0oeWs2Wk8D5cDHxSa2nY=
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		iVm8DEnfwBZ2daaojV2jJxFJ+mM=
+		qXA5pjbMI45rTjRPzaThBVQPO2o=
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eWSb+zdW39/pxjgnjaRwKDpWINk=
+		Lmarawp0oeWs2Wk8D5cDHxSa2nY=
 		</data>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		B7GLOcjLFhJ2PDKcQlNN09jgaBc=
+		u71Xh9hJzLEsbSzpdARyjjA718s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		hDqioVaK0Jch+8PYEhBaVt30xSo=
 		</data>
-		<key>PLCrashReporter_CrashReporter.bundle/Info.plist</key>
-		<data>
-		nhYFezHN+Wn8emjCnYwAu5kIIrg=
-		</data>
-		<key>PLCrashReporter_CrashReporter.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		O3Zhkkf3uaxqyTk0D3zchR8Gees=
-		</data>
-		<key>PLCrashReporter_CrashReporter.bundle/_CodeSignature/CodeDirectory</key>
-		<data>
-		4UEjywk7VidGl78YuYVir405XbE=
-		</data>
-		<key>PLCrashReporter_CrashReporter.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>PLCrashReporter_CrashReporter.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		+f9QbHIwz/oYdfZbkp33fAA2Cpc=
-		</data>
-		<key>PLCrashReporter_CrashReporter.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>SDKInfo.plist</key>
 		<data>
-		dYa0nDrxYpnTGNYIMCAweoGKT3c=
+		qUINntIWHLnpUbm1GGOFDUpy4+s=
 		</data>
 		<key>Split_Split.bundle/Info.plist</key>
 		<data>
-		JVUhmyrHa/Se/8PD+AU0xxdyad0=
+		os93hZgru87zqXIDxq2qs2xpDBM=
 		</data>
 		<key>Split_Split.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		95wH1lzn7YYt/DUoMjicc6yctUc=
+		yMShdA1fu8hWoNWkPQGMpegroeA=
 		</data>
 		<key>Split_Split.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -576,9 +508,33 @@
 		<data>
 		BwhyJQTRi1jGVeIzpqPmgQwsUxc=
 		</data>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/Info.plist</key>
+		<data>
+		rbiNZI58fnOrh+gOlIW3KOgs+Sk=
+		</data>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		F6mYXr6EQZyLKcQNM0vmTGcGMns=
+		</data>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		UxTTyz+SFv+zwIEMfIX97NnBmMs=
+		</data>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		2x4dWuu5fRsZEdHeAjiqIr22/VU=
+		</data>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
 		<key>SwiftyJSON_SwiftyJSON.bundle/Info.plist</key>
 		<data>
-		VlMvmGifu+0Q+WIUO7UeZ4XHN5A=
+		ADwyQLpKQIhRdhEchukUiaf9yiw=
 		</data>
 		<key>SwiftyJSON_SwiftyJSON.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -586,7 +542,7 @@
 		</data>
 		<key>SwiftyJSON_SwiftyJSON.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		+WVq7SKEH1uWy9Z0EWa7vAinLPA=
+		z+C0DicrJcAQ0QAoJpGsGw1Nwnc=
 		</data>
 		<key>SwiftyJSON_SwiftyJSON.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -607,21 +563,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uw18sjyrBddJb7z6D12LSL4yqZpzndXk9Oh9LGjOM98=
+			L/OII5eCXOQOKgYO2AOeJ0nA/pjXVGIILGc3KwsPMrU=
 			</data>
 		</dict>
 		<key>Alamofire_Alamofire.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
+			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
 			</data>
 		</dict>
 		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NVf5BFeoErO2LBtC8Xw4GNXvg5++WotSzDmT8k9dCa4=
+			E4vvhJvvptaIWwwoaR9UEcI3eROXrb5tW7nrO3DIT4E=
 			</data>
 		</dict>
 		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeRequirements</key>
@@ -635,7 +591,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TphotJcCAG33suJnXnFSKWoWR5cfPUPzpZ0qmW2lEB0=
+			IjeYVz7IQDMIDy3A3XeGJoX4t3iz08vtYESCGjrYPTE=
 			</data>
 		</dict>
 		<key>Alamofire_Alamofire.bundle/_CodeSignature/CodeSignature</key>
@@ -649,7 +605,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DJ745/AJtVdyzVPpCp56O4A9uQYioDRmLprAVFkqqDc=
+			PNeCWq+Z2Yul6/sbK27CZ8mzD3QrU+v5hx1QlGMHK8g=
 			</data>
 		</dict>
 		<key>CocoaLumberjack_CocoaLumberjack.bundle/PrivacyInfo.xcprivacy</key>
@@ -663,7 +619,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FxJ8MLnoZm3xXN8z5UJo9xKrp3YFA/4JtvPgXWzHTNw=
+			kZ3Ux3qM6nt2ZInubhi3sDVUjceTPMECkTqmQxkkRyY=
 			</data>
 		</dict>
 		<key>CocoaLumberjack_CocoaLumberjack.bundle/_CodeSignature/CodeRequirements</key>
@@ -681,90 +637,6 @@
 			</data>
 		</dict>
 		<key>CocoaLumberjack_CocoaLumberjack.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCore.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ciC5gnK0UEmiHgcsuUYGSgsQ4kfcd5TfJV7WTaGEBfQ=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCore.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			35t7t8lLZifbQnp4eS45Jqj6Gzky7RzkMBss6wLKvok=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCore.bundle/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ke2LfjzuDaJ3FnsWdwRPvgfcbLuMN2bhMusr0/6GWEE=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCore.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCore.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vY84XuDgboV0KY+3Japtg4F7yRMDebABlCyuf3YULQI=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCore.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCrashReporting.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EMvENujpntMj5JvmAzOgqnSzyfbVU3VyLxMpJxTPOpg=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCrashReporting.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			htRkUY0cHD4UA6l/rLglJy/lsBpq58PEU3sJMfn9em0=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCrashReporting.bundle/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			c+MIkBSjAV37h2R0onscipK5sN/W5d2l2xc4WRCK3CQ=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCrashReporting.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCrashReporting.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A+DVcuC7hGvJxlpwvxU6xqbC1T4pZEvW/ogQ/xQBlXs=
-			</data>
-		</dict>
-		<key>Datadog_DatadogCrashReporting.bundle/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -1233,18 +1105,25 @@
 			+OP4xW+A1vGSscsFlweKwO04pYN0v0RzHFm3Up/9ykA=
 			</data>
 		</dict>
-		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 69.omo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yATtjWl1YLOtGo7EIFbGze87PvNW5c7UC6tfmnlCRLo=
-			</data>
-		</dict>
 		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 7.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			qp/xH6V50QiJ8iOfaXBcaXquLBuXGb7bGQvN+btq+RM=
+			</data>
+		</dict>
+		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 70.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vk0+jU+ptuILRuIlgw2/HgI9gY9Fc+p192+rADAxDSM=
+			</data>
+		</dict>
+		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 70.omo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TxaL0ffEKeklUUnp9BPBo/4waOhIsosMLJEL3OwkEXw=
 			</data>
 		</dict>
 		<key>LatchKit_Persistence.bundle/AppModel.momd/AppModel 8.mom</key>
@@ -1272,14 +1151,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iN5mAtwrTtoscTxQaTjYnIPlmLi3yzyIMGMdJciCeA4=
+			ZhJcnUt+pJiHB1WVVkwFALGioXj7voxgPTR+9UlS0z4=
 			</data>
 		</dict>
 		<key>LatchKit_Persistence.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VegtJXt0PHG4pVrgeRSHXc5LcJQJ9FExxWfgO6VhWXw=
+			G1XOTT6Zi6cY4nZvyQvNZrSyaCLhFsy0Nb5zRgRPiPc=
 			</data>
 		</dict>
 		<key>LatchKit_Persistence.bundle/Migration50to51.cdm</key>
@@ -1293,7 +1172,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BUUO57PfspYysbJefjRaVigIPlj5SYrvof4KajoK9Ss=
+			whdFVvHp7ntk+a90s1TLDcGvLLCfYwbjtffsQ1XFcJU=
 			</data>
 		</dict>
 		<key>LatchKit_Persistence.bundle/_CodeSignature/CodeRequirements</key>
@@ -1307,7 +1186,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4B+87tLi6sH8snP0yBJ0pYUcyEm/wTFo7Rw0a6OVVWc=
+			zDZq5sSuTknguM23HTd0sm7Bp3Cct130SyvkasZw4mY=
 			</data>
 		</dict>
 		<key>LatchKit_Persistence.bundle/_CodeSignature/CodeSignature</key>
@@ -1363,14 +1242,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a3diP3d+jDJW3/71zsyqOyRIUh8gPLygMlZf3pYcayM=
+			sn4LqM1ZnoBQ9c5zZF1nSPtKTlZS6nbTkPL30TTli8g=
 			</data>
 		</dict>
 		<key>LatchNetworking_LatchNetworking.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AuvoDu+jGClC5+HWf7UshobfNKdP/oY0WmIYNbXuknE=
+			nrFtVV3gDaBI2usZVhFrhzvDe/ce5lRygArbviiZdIM=
 			</data>
 		</dict>
 		<key>LatchNetworking_LatchNetworking.bundle/_CodeSignature/CodeRequirements</key>
@@ -1398,70 +1277,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyuNOWu0/W44+HFVQX1AwBIq4XCgtdHaGA+FFru9Wsc=
+			7uZg5C8n1nbO/0MXyC6dhgmsipmsZ1keGnxM+/gIvXc=
 			</data>
 		</dict>
 		<key>Modules/OpenDOORCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XWBWt23bWaxb2oAxhANsJYBpR/j5Cu+1IhjPC6nPMoM=
+			Ek9N1Jr565V6ZphkOEqNv4AaF58GDTMmgcYBRXkX87M=
 			</data>
 		</dict>
 		<key>Modules/OpenDOORCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YAfUWCI41bjWP/anz3ozj3EzZKam8TUaPJpquEFVJCY=
+			O1PiXLpbaSM/FwlxdBoQME9SsQqbU3wuLonZfb0c154=
 			</data>
 		</dict>
 		<key>Modules/OpenDOORCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XWBWt23bWaxb2oAxhANsJYBpR/j5Cu+1IhjPC6nPMoM=
+			Ek9N1Jr565V6ZphkOEqNv4AaF58GDTMmgcYBRXkX87M=
 			</data>
 		</dict>
 		<key>Modules/OpenDOORCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			14Ml1bhnOU9J8H7q7YPOE3B4UctLLaNpwKMi8qK/TPQ=
+			F50jc58hulVEAn9XieOkCtOnqf34LK5qdteoloNvjVw=
 			</data>
 		</dict>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyuNOWu0/W44+HFVQX1AwBIq4XCgtdHaGA+FFru9Wsc=
+			7uZg5C8n1nbO/0MXyC6dhgmsipmsZ1keGnxM+/gIvXc=
 			</data>
 		</dict>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4KTFyIU054PcLcdq8r5bqONj8i/R+7YXvBx2zkfh0u4=
+			pUdVGtxEdiBUkiL7MK9YBTlC3o5ykQ1JfLkUXAbLdZA=
 			</data>
 		</dict>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Eekgrh/y5QU8ffjtjEG0MKOfc79sLfRcB4Be/MUqbAY=
+			a7CP/9VEz8mq956yKGdNJVk1J5lwsOGWVB7RxEpBQJ4=
 			</data>
 		</dict>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4KTFyIU054PcLcdq8r5bqONj8i/R+7YXvBx2zkfh0u4=
+			pUdVGtxEdiBUkiL7MK9YBTlC3o5ykQ1JfLkUXAbLdZA=
 			</data>
 		</dict>
 		<key>Modules/OpenDOORCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l5CT2yuch3PEVUhRymsTbtMlkNnprHAVGp30eC7A3tQ=
+			7JQAp9twzRYvCyLJuE2Jkrpyy+q5joUTxzuQg9NQl08=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1471,67 +1350,25 @@
 			dVUy6UStV/quDRGS5Pm940+w5EnjZF+zN4buEoZst3U=
 			</data>
 		</dict>
-		<key>PLCrashReporter_CrashReporter.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rjGCzG3Mge28uFWMZd568owYZ7+knWXT6SSKDrXVK8U=
-			</data>
-		</dict>
-		<key>PLCrashReporter_CrashReporter.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WdWnMSNl52vRPwKNpI8BQV9PUBP0rC8ybQKoTQJKewI=
-			</data>
-		</dict>
-		<key>PLCrashReporter_CrashReporter.bundle/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gHd1eXFweQRrN9S1WdXdnEGcAjf/RWJ4B9iHXtqh6Hs=
-			</data>
-		</dict>
-		<key>PLCrashReporter_CrashReporter.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>PLCrashReporter_CrashReporter.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tVVuFtfuTjTKLqwQqJb2Svp6c7LXQPMdbZbyCGgN4Bg=
-			</data>
-		</dict>
-		<key>PLCrashReporter_CrashReporter.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
 		<key>SDKInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cIVHeT5PkdfEsUiiHuZ85poAmfxhPkmbnZel6C3bIuU=
+			2tBYtkHRG4iJwabMoAHys9VY/mw6p9Bb4QfRRytJlSc=
 			</data>
 		</dict>
 		<key>Split_Split.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lOci1BoFAK9WoEICiAKN26iQSp+nhm29R0f4tNBU76g=
+			LWXpg6AZmP5wmFQ1eOv2p2TyxpQbBs8Lc5QbCFpB3Es=
 			</data>
 		</dict>
 		<key>Split_Split.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y75j8uuFJgqsaH8mvQMd4xbYeoGd4oANxtdA4FKXdr8=
+			FSeuqZn/vSF/pNI63G6FrmdGjzw1/8EFFmOGHBw27cY=
 			</data>
 		</dict>
 		<key>Split_Split.bundle/_CodeSignature/CodeRequirements</key>
@@ -1597,11 +1434,53 @@
 			tgZQeHLbIJah0F05m10NcGVT2AriK1q5sYhFEW87tRc=
 			</data>
 		</dict>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O6gj32ho6wpsQQUetwHAK8ecKRGrlRKHwhJh4UPS6w8=
+			</data>
+		</dict>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oHQY5f4SjiJM03lkvCHFA7eqL1dee0knRoR4rYcyFP4=
+			</data>
+		</dict>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kBV5tSpeE9+3wWqIE/q40IpuHZxiuwMA5BOMU6Hlo5E=
+			</data>
+		</dict>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tb113W7Px97hOIWXFnFPpbKJfFT3lW6xEobkPS6MNng=
+			</data>
+		</dict>
+		<key>SwiftProtobuf_SwiftProtobuf.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
 		<key>SwiftyJSON_SwiftyJSON.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HxVFa22mpN271BH4sg+JjZUVIVfDGMxICwQrDQoheV4=
+			jRaVrD7ruRJeYXzJh4JB4ENGtMyjXW/fJ4r0pl3a6VY=
 			</data>
 		</dict>
 		<key>SwiftyJSON_SwiftyJSON.bundle/PrivacyInfo.xcprivacy</key>
@@ -1615,7 +1494,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bjgUFYi7giNtVijoKOPB/L6T4EgfWiEVXAw2vjuihoE=
+			4OJ4MiDJGaCbuDK9LDPO6E86eu55Aa7XdzwmZ8oYZNY=
 			</data>
 		</dict>
 		<key>SwiftyJSON_SwiftyJSON.bundle/_CodeSignature/CodeRequirements</key>
