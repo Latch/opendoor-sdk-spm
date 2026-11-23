@@ -133,6 +133,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -757,47 +771,10 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "OpenDOORCore"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "OpenDOORCore"
-      },
-      {
-        "kind": "Import",
-        "name": "Gemini",
-        "printedName": "Gemini",
-        "declKind": "Import",
-        "moduleName": "OpenDOORCore",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "LatchCore",
-        "printedName": "LatchCore",
-        "declKind": "Import",
-        "moduleName": "OpenDOORCore",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "LatchNetworking",
-        "printedName": "LatchNetworking",
-        "declKind": "Import",
-        "moduleName": "OpenDOORCore",
-        "declAttributes": [
-          "AccessControl"
-        ]
       },
       {
         "kind": "Import",
@@ -974,6 +951,37 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
+        "name": "LatchCore",
+        "printedName": "LatchCore",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
         "name": "LatchCore",
         "printedName": "LatchCore",
         "declKind": "Import",
@@ -998,20 +1006,13 @@
       },
       {
         "kind": "Import",
-        "name": "LatchCore",
-        "printedName": "LatchCore",
+        "name": "DOORAPIClient",
+        "printedName": "DOORAPIClient",
         "declKind": "Import",
         "moduleName": "OpenDOORCore",
         "declAttributes": [
           "AccessControl"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpenDOORCore"
       },
       {
         "kind": "Import",
@@ -1124,6 +1125,50 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "Import",
+        "name": "LatchCore",
+        "printedName": "LatchCore",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnlockKit",
+        "printedName": "UnlockKit",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DOORAPIClient",
+        "printedName": "DOORAPIClient",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
       },
       {
         "kind": "Import",
@@ -1409,7 +1454,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1469,7 +1515,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1529,7 +1576,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1589,7 +1637,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1641,7 +1690,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1685,7 +1735,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1737,7 +1788,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1797,7 +1849,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1857,7 +1910,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1917,7 +1971,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1977,7 +2032,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -2294,7 +2350,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO7unknownyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO7unknownyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2331,7 +2390,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO3nfcyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO3nfcyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2368,7 +2430,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO8passcodeyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO8passcodeyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2405,7 +2470,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO3bleyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO3bleyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2442,7 +2510,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO3mkoyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO3mkoyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2479,7 +2550,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO7desfireyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO7desfireyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2516,7 +2590,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO13scheduledLockyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO13scheduledLockyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2553,7 +2630,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO15scheduledUnlockyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO15scheduledUnlockyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2590,7 +2670,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO14mechanicalLockyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO14mechanicalLockyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2627,7 +2710,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO9tapToLockyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO9tapToLockyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2664,7 +2750,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO7bleLockyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO7bleLockyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2701,7 +2790,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogMethodO10androidNFCyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogMethodO10androidNFCyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2886,7 +2978,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogResultO7unknownyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogResultO7unknownyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2923,7 +3018,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogResultO7successyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogResultO7successyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2960,7 +3058,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogResultO12guestSuccessyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogResultO12guestSuccessyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -2997,7 +3098,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogResultO11lockSuccessyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogResultO11lockSuccessyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -3034,7 +3138,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogResultO016outsideQualifiedC0yA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogResultO016outsideQualifiedC0yA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -3071,7 +3178,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogResultO18unknownTimeFailureyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogResultO18unknownTimeFailureyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -3108,7 +3218,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogResultO10nfcFailureyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogResultO10nfcFailureyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -3145,7 +3258,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogResultO15deadboltAppliedyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogResultO15deadboltAppliedyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -3182,7 +3298,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore15AccessLogResultO9incorrectyA2CmF",
             "mangledName": "$s12OpenDOORCore15AccessLogResultO9incorrectyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -3325,7 +3444,10 @@
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
-        "moduleName": "OpenDOORCore"
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3607,6 +3729,43 @@
             "declKind": "Func",
             "usr": "s:12OpenDOORCore10DOORClientP6unlock6lockIDy10Foundation4UUIDV_tYaKF",
             "mangledName": "$s12OpenDOORCore10DOORClientP6unlock6lockIDy10Foundation4UUIDV_tYaKF",
+            "moduleName": "OpenDOORCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : OpenDOORCore.DOORClient>",
+            "sugared_genericSig": "<Self where Self : OpenDOORCore.DOORClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remoteUnlock",
+            "printedName": "remoteUnlock(lockID:method:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteUnlockMethod",
+                "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore10DOORClientP12remoteUnlock6lockID6methody10Foundation4UUIDV_AA06RemoteE6MethodOtYaKF",
+            "mangledName": "$s12OpenDOORCore10DOORClientP12remoteUnlock6lockID6methody10Foundation4UUIDV_AA06RemoteE6MethodOtYaKF",
             "moduleName": "OpenDOORCore",
             "genericSig": "<τ_0_0 where τ_0_0 : OpenDOORCore.DOORClient>",
             "sugared_genericSig": "<Self where Self : OpenDOORCore.DOORClient>",
@@ -4089,6 +4248,72 @@
           },
           {
             "kind": "Function",
+            "name": "getIntercomSettings",
+            "printedName": "getIntercomSettings()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OpenDOORCore.IntercomSettings]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntercomSettings",
+                    "printedName": "OpenDOORCore.IntercomSettings",
+                    "usr": "s:12OpenDOORCore16IntercomSettingsV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore10DOORClientP19getIntercomSettingsSayAA0eF0VGyYaKF",
+            "mangledName": "$s12OpenDOORCore10DOORClientP19getIntercomSettingsSayAA0eF0VGyYaKF",
+            "moduleName": "OpenDOORCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : OpenDOORCore.DOORClient>",
+            "sugared_genericSig": "<Self where Self : OpenDOORCore.DOORClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableIntercomPhoneCalls",
+            "printedName": "enableIntercomPhoneCalls(buildingID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomSettings",
+                "printedName": "OpenDOORCore.IntercomSettings",
+                "usr": "s:12OpenDOORCore16IntercomSettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore10DOORClientP24enableIntercomPhoneCalls10buildingIDAA0E8SettingsV10Foundation4UUIDV_tYaKF",
+            "mangledName": "$s12OpenDOORCore10DOORClientP24enableIntercomPhoneCalls10buildingIDAA0E8SettingsV10Foundation4UUIDV_tYaKF",
+            "moduleName": "OpenDOORCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : OpenDOORCore.DOORClient>",
+            "sugared_genericSig": "<Self where Self : OpenDOORCore.DOORClient>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setLogLevel",
             "printedName": "setLogLevel(_:)",
             "children": [
@@ -4490,7 +4715,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4550,7 +4776,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4609,7 +4836,8 @@
             "mangledName": "$s12OpenDOORCore17GuestInvitesErrorV13failedLockIDsSay10Foundation4UUIDVGvp",
             "moduleName": "OpenDOORCore",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -4794,6 +5022,275 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IntercomSettingsError",
+        "printedName": "IntercomSettingsError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noPhoneNumber",
+            "printedName": "noPhoneNumber",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.IntercomSettingsError.Type) -> OpenDOORCore.IntercomSettingsError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntercomSettingsError",
+                    "printedName": "OpenDOORCore.IntercomSettingsError",
+                    "usr": "s:12OpenDOORCore21IntercomSettingsErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.IntercomSettingsError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntercomSettingsError",
+                        "printedName": "OpenDOORCore.IntercomSettingsError",
+                        "usr": "s:12OpenDOORCore21IntercomSettingsErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore21IntercomSettingsErrorO13noPhoneNumberyA2CmF",
+            "mangledName": "$s12OpenDOORCore21IntercomSettingsErrorO13noPhoneNumberyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomSettingsError",
+                "printedName": "OpenDOORCore.IntercomSettingsError",
+                "usr": "s:12OpenDOORCore21IntercomSettingsErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomSettingsError",
+                "printedName": "OpenDOORCore.IntercomSettingsError",
+                "usr": "s:12OpenDOORCore21IntercomSettingsErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore21IntercomSettingsErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12OpenDOORCore21IntercomSettingsErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "OpenDOORCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore21IntercomSettingsErrorO9hashValueSivp",
+            "mangledName": "$s12OpenDOORCore21IntercomSettingsErrorO9hashValueSivp",
+            "moduleName": "OpenDOORCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore21IntercomSettingsErrorO9hashValueSivg",
+                "mangledName": "$s12OpenDOORCore21IntercomSettingsErrorO9hashValueSivg",
+                "moduleName": "OpenDOORCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore21IntercomSettingsErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12OpenDOORCore21IntercomSettingsErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "OpenDOORCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore21IntercomSettingsErrorO11descriptionSSvp",
+            "mangledName": "$s12OpenDOORCore21IntercomSettingsErrorO11descriptionSSvp",
+            "moduleName": "OpenDOORCore",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore21IntercomSettingsErrorO11descriptionSSvg",
+                "mangledName": "$s12OpenDOORCore21IntercomSettingsErrorO11descriptionSSvg",
+                "moduleName": "OpenDOORCore",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12OpenDOORCore21IntercomSettingsErrorO",
+        "mangledName": "$s12OpenDOORCore21IntercomSettingsErrorO",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "OpenDOORSDKError",
+            "printedName": "OpenDOORSDKError",
+            "usr": "s:12OpenDOORCore0A12DOORSDKErrorP",
+            "mangledName": "$s12OpenDOORCore0A12DOORSDKErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -5455,7 +5952,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5499,7 +5997,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7151,6 +7650,59 @@
           },
           {
             "kind": "Var",
+            "name": "remoteUnlockNotSupported",
+            "printedName": "remoteUnlockNotSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockError.Type) -> (Swift.String) -> OpenDOORCore.UnlockError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OpenDOORCore.UnlockError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockError",
+                        "printedName": "OpenDOORCore.UnlockError",
+                        "usr": "s:12OpenDOORCore11UnlockErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockError",
+                        "printedName": "OpenDOORCore.UnlockError",
+                        "usr": "s:12OpenDOORCore11UnlockErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore11UnlockErrorO06remoteC12NotSupportedyACSScACmF",
+            "mangledName": "$s12OpenDOORCore11UnlockErrorO06remoteC12NotSupportedyACSScACmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -7303,7 +7855,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore8DurationO14limit15MinutesyA2CmF",
             "mangledName": "$s12OpenDOORCore8DurationO14limit15MinutesyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7340,7 +7895,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore8DurationO7fullDayyA2CmF",
             "mangledName": "$s12OpenDOORCore8DurationO7fullDayyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -7508,7 +8066,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7552,7 +8111,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7604,7 +8164,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7664,7 +8225,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7724,7 +8286,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7784,7 +8347,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8002,7 +8566,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8046,7 +8611,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8090,7 +8656,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8134,7 +8701,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8178,7 +8746,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8230,7 +8799,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8424,7 +8994,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8476,7 +9047,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8706,7 +9278,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore12PasscodeTypeO9permanentyA2CmF",
             "mangledName": "$s12OpenDOORCore12PasscodeTypeO9permanentyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -8743,7 +9318,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore12PasscodeTypeO5dailyyA2CmF",
             "mangledName": "$s12OpenDOORCore12PasscodeTypeO5dailyyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -8780,7 +9358,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore12PasscodeTypeO14dailySingleUseyA2CmF",
             "mangledName": "$s12OpenDOORCore12PasscodeTypeO14dailySingleUseyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -8965,7 +9546,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore6PeriodO5todayyA2CmF",
             "mangledName": "$s12OpenDOORCore6PeriodO5todayyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -9002,7 +9586,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore6PeriodO8tomorrowyA2CmF",
             "mangledName": "$s12OpenDOORCore6PeriodO8tomorrowyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -9170,7 +9757,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -9214,7 +9802,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -9354,6 +9943,538 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "IntercomContactPreference",
+        "printedName": "IntercomContactPreference",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "app",
+            "printedName": "app",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.IntercomContactPreference.Type) -> OpenDOORCore.IntercomContactPreference",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntercomContactPreference",
+                    "printedName": "OpenDOORCore.IntercomContactPreference",
+                    "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.IntercomContactPreference.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntercomContactPreference",
+                        "printedName": "OpenDOORCore.IntercomContactPreference",
+                        "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore25IntercomContactPreferenceO3appyA2CmF",
+            "mangledName": "$s12OpenDOORCore25IntercomContactPreferenceO3appyA2CmF",
+            "moduleName": "OpenDOORCore"
+          },
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.IntercomContactPreference.Type) -> OpenDOORCore.IntercomContactPreference",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntercomContactPreference",
+                    "printedName": "OpenDOORCore.IntercomContactPreference",
+                    "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.IntercomContactPreference.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntercomContactPreference",
+                        "printedName": "OpenDOORCore.IntercomContactPreference",
+                        "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore25IntercomContactPreferenceO5phoneyA2CmF",
+            "mangledName": "$s12OpenDOORCore25IntercomContactPreferenceO5phoneyA2CmF",
+            "moduleName": "OpenDOORCore"
+          },
+          {
+            "kind": "Var",
+            "name": "unit",
+            "printedName": "unit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.IntercomContactPreference.Type) -> OpenDOORCore.IntercomContactPreference",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntercomContactPreference",
+                    "printedName": "OpenDOORCore.IntercomContactPreference",
+                    "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.IntercomContactPreference.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntercomContactPreference",
+                        "printedName": "OpenDOORCore.IntercomContactPreference",
+                        "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore25IntercomContactPreferenceO4unityA2CmF",
+            "mangledName": "$s12OpenDOORCore25IntercomContactPreferenceO4unityA2CmF",
+            "moduleName": "OpenDOORCore"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore25IntercomContactPreferenceO9hashValueSivp",
+            "mangledName": "$s12OpenDOORCore25IntercomContactPreferenceO9hashValueSivp",
+            "moduleName": "OpenDOORCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore25IntercomContactPreferenceO9hashValueSivg",
+                "mangledName": "$s12OpenDOORCore25IntercomContactPreferenceO9hashValueSivg",
+                "moduleName": "OpenDOORCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore25IntercomContactPreferenceO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12OpenDOORCore25IntercomContactPreferenceO4hash4intoys6HasherVz_tF",
+            "moduleName": "OpenDOORCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomContactPreference",
+                "printedName": "OpenDOORCore.IntercomContactPreference",
+                "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomContactPreference",
+                "printedName": "OpenDOORCore.IntercomContactPreference",
+                "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore25IntercomContactPreferenceO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12OpenDOORCore25IntercomContactPreferenceO2eeoiySbAC_ACtFZ",
+            "moduleName": "OpenDOORCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12OpenDOORCore25IntercomContactPreferenceO",
+        "mangledName": "$s12OpenDOORCore25IntercomContactPreferenceO",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IntercomSettings",
+        "printedName": "IntercomSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "buildingID",
+            "printedName": "buildingID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore16IntercomSettingsV10buildingID10Foundation4UUIDVvp",
+            "mangledName": "$s12OpenDOORCore16IntercomSettingsV10buildingID10Foundation4UUIDVvp",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore16IntercomSettingsV10buildingID10Foundation4UUIDVvg",
+                "mangledName": "$s12OpenDOORCore16IntercomSettingsV10buildingID10Foundation4UUIDVvg",
+                "moduleName": "OpenDOORCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contactPreference",
+            "printedName": "contactPreference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomContactPreference",
+                "printedName": "OpenDOORCore.IntercomContactPreference",
+                "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore16IntercomSettingsV17contactPreferenceAA0c7ContactF0Ovp",
+            "mangledName": "$s12OpenDOORCore16IntercomSettingsV17contactPreferenceAA0c7ContactF0Ovp",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntercomContactPreference",
+                    "printedName": "OpenDOORCore.IntercomContactPreference",
+                    "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore16IntercomSettingsV17contactPreferenceAA0c7ContactF0Ovg",
+                "mangledName": "$s12OpenDOORCore16IntercomSettingsV17contactPreferenceAA0c7ContactF0Ovg",
+                "moduleName": "OpenDOORCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneNumber",
+            "printedName": "phoneNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore16IntercomSettingsV11phoneNumberSSSgvp",
+            "mangledName": "$s12OpenDOORCore16IntercomSettingsV11phoneNumberSSSgvp",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore16IntercomSettingsV11phoneNumberSSSgvg",
+                "mangledName": "$s12OpenDOORCore16IntercomSettingsV11phoneNumberSSSgvg",
+                "moduleName": "OpenDOORCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(buildingID:contactPreference:phoneNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomSettings",
+                "printedName": "OpenDOORCore.IntercomSettings",
+                "usr": "s:12OpenDOORCore16IntercomSettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomContactPreference",
+                "printedName": "OpenDOORCore.IntercomContactPreference",
+                "usr": "s:12OpenDOORCore25IntercomContactPreferenceO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12OpenDOORCore16IntercomSettingsV10buildingID17contactPreference11phoneNumberAC10Foundation4UUIDV_AA0c7ContactH0OSSSgtcfc",
+            "mangledName": "$s12OpenDOORCore16IntercomSettingsV10buildingID17contactPreference11phoneNumberAC10Foundation4UUIDV_AA0c7ContactH0OSSSgtcfc",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomSettings",
+                "printedName": "OpenDOORCore.IntercomSettings",
+                "usr": "s:12OpenDOORCore16IntercomSettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntercomSettings",
+                "printedName": "OpenDOORCore.IntercomSettings",
+                "usr": "s:12OpenDOORCore16IntercomSettingsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore16IntercomSettingsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12OpenDOORCore16IntercomSettingsV2eeoiySbAC_ACtFZ",
+            "moduleName": "OpenDOORCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12OpenDOORCore16IntercomSettingsV",
+        "mangledName": "$s12OpenDOORCore16IntercomSettingsV",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Lock",
         "printedName": "Lock",
         "children": [
@@ -9375,7 +10496,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -9419,7 +10541,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -9463,7 +10586,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -9507,7 +10631,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -9559,7 +10684,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -9619,7 +10745,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -9671,7 +10798,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -9698,9 +10826,115 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "timeZone",
+            "printedName": "timeZone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore4LockV8timeZoneSSvp",
+            "mangledName": "$s12OpenDOORCore4LockV8timeZoneSSvp",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore4LockV8timeZoneSSvg",
+                "mangledName": "$s12OpenDOORCore4LockV8timeZoneSSvg",
+                "moduleName": "OpenDOORCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remoteUnlockMethods",
+            "printedName": "remoteUnlockMethods",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OpenDOORCore.RemoteUnlockMethod]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RemoteUnlockMethod",
+                    "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                    "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore4LockV19remoteUnlockMethodsSayAA06RemoteE6MethodOGvp",
+            "mangledName": "$s12OpenDOORCore4LockV19remoteUnlockMethodsSayAA06RemoteE6MethodOGvp",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OpenDOORCore.RemoteUnlockMethod]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RemoteUnlockMethod",
+                        "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                        "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore4LockV19remoteUnlockMethodsSayAA06RemoteE6MethodOGvg",
+                "mangledName": "$s12OpenDOORCore4LockV19remoteUnlockMethodsSayAA06RemoteE6MethodOGvg",
+                "moduleName": "OpenDOORCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:name:buildingID:startTime:endTime:doorCode:isShareable:)",
+            "printedName": "init(id:name:buildingID:startTime:endTime:doorCode:isShareable:timeZone:remoteUnlockMethods:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9765,11 +10999,31 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OpenDOORCore.RemoteUnlockMethod]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RemoteUnlockMethod",
+                    "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                    "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12OpenDOORCore4LockV2id4name10buildingID9startTime03endI08doorCode11isShareableAC10Foundation4UUIDV_SSAmK4DateVAOSgSSSgSbtcfc",
-            "mangledName": "$s12OpenDOORCore4LockV2id4name10buildingID9startTime03endI08doorCode11isShareableAC10Foundation4UUIDV_SSAmK4DateVAOSgSSSgSbtcfc",
+            "usr": "s:12OpenDOORCore4LockV2id4name10buildingID9startTime03endI08doorCode11isShareable8timeZone19remoteUnlockMethodsAC10Foundation4UUIDV_SSAoM4DateVAQSgSSSgSbSSSayAA06RemoteR6MethodOGtcfc",
+            "mangledName": "$s12OpenDOORCore4LockV2id4name10buildingID9startTime03endI08doorCode11isShareable8timeZone19remoteUnlockMethodsAC10Foundation4UUIDV_SSAoM4DateVAQSgSSSgSbSSSayAA06RemoteR6MethodOGtcfc",
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "AccessControl"
@@ -9885,6 +11139,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : OpenDOORCore.LocksListener>",
             "sugared_genericSig": "<Self where Self : OpenDOORCore.LocksListener>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
@@ -9963,7 +11220,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore8LogLevelO5debugyA2CmF",
             "mangledName": "$s12OpenDOORCore8LogLevelO5debugyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -10000,7 +11260,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore8LogLevelO4infoyA2CmF",
             "mangledName": "$s12OpenDOORCore8LogLevelO4infoyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -10037,7 +11300,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore8LogLevelO7warningyA2CmF",
             "mangledName": "$s12OpenDOORCore8LogLevelO7warningyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -10074,7 +11340,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore8LogLevelO5erroryA2CmF",
             "mangledName": "$s12OpenDOORCore8LogLevelO5erroryA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -10260,7 +11529,8 @@
         "mangledName": "$s12OpenDOORCore0A4DOORO",
         "moduleName": "OpenDOORCore",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -10276,6 +11546,234 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpenDOORCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RemoteUnlockMethod",
+        "printedName": "RemoteUnlockMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "intercom",
+            "printedName": "intercom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.RemoteUnlockMethod.Type) -> OpenDOORCore.RemoteUnlockMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RemoteUnlockMethod",
+                    "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                    "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.RemoteUnlockMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RemoteUnlockMethod",
+                        "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                        "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore18RemoteUnlockMethodO8intercomyA2CmF",
+            "mangledName": "$s12OpenDOORCore18RemoteUnlockMethodO8intercomyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "doorScout",
+            "printedName": "doorScout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.RemoteUnlockMethod.Type) -> OpenDOORCore.RemoteUnlockMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RemoteUnlockMethod",
+                    "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                    "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.RemoteUnlockMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RemoteUnlockMethod",
+                        "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                        "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore18RemoteUnlockMethodO9doorScoutyA2CmF",
+            "mangledName": "$s12OpenDOORCore18RemoteUnlockMethodO9doorScoutyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OpenDOORCore18RemoteUnlockMethodO9hashValueSivp",
+            "mangledName": "$s12OpenDOORCore18RemoteUnlockMethodO9hashValueSivp",
+            "moduleName": "OpenDOORCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OpenDOORCore18RemoteUnlockMethodO9hashValueSivg",
+                "mangledName": "$s12OpenDOORCore18RemoteUnlockMethodO9hashValueSivg",
+                "moduleName": "OpenDOORCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore18RemoteUnlockMethodO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12OpenDOORCore18RemoteUnlockMethodO4hash4intoys6HasherVz_tF",
+            "moduleName": "OpenDOORCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteUnlockMethod",
+                "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteUnlockMethod",
+                "printedName": "OpenDOORCore.RemoteUnlockMethod",
+                "usr": "s:12OpenDOORCore18RemoteUnlockMethodO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OpenDOORCore18RemoteUnlockMethodO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12OpenDOORCore18RemoteUnlockMethodO2eeoiySbAC_ACtFZ",
+            "moduleName": "OpenDOORCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12OpenDOORCore18RemoteUnlockMethodO",
+        "mangledName": "$s12OpenDOORCore18RemoteUnlockMethodO",
+        "moduleName": "OpenDOORCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -10326,7 +11824,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore13UnlockAttemptO5firstyA2CmF",
             "mangledName": "$s12OpenDOORCore13UnlockAttemptO5firstyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -10363,7 +11864,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore13UnlockAttemptO6secondyA2CmF",
             "mangledName": "$s12OpenDOORCore13UnlockAttemptO6secondyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -10539,7 +12043,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -10591,7 +12096,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -10635,7 +12141,8 @@
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -10820,7 +12327,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventMethodO8explicityA2CmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventMethodO8explicityA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -10857,7 +12367,90 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventMethodO9proximityyA2CmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventMethodO9proximityyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remoteIntercom",
+            "printedName": "remoteIntercom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockEventMethod.Type) -> OpenDOORCore.UnlockEventMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockEventMethod",
+                    "printedName": "OpenDOORCore.UnlockEventMethod",
+                    "usr": "s:12OpenDOORCore17UnlockEventMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockEventMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventMethod",
+                        "printedName": "OpenDOORCore.UnlockEventMethod",
+                        "usr": "s:12OpenDOORCore17UnlockEventMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockEventMethodO14remoteIntercomyA2CmF",
+            "mangledName": "$s12OpenDOORCore17UnlockEventMethodO14remoteIntercomyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remoteDoorScout",
+            "printedName": "remoteDoorScout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockEventMethod.Type) -> OpenDOORCore.UnlockEventMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockEventMethod",
+                    "printedName": "OpenDOORCore.UnlockEventMethod",
+                    "usr": "s:12OpenDOORCore17UnlockEventMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockEventMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockEventMethod",
+                        "printedName": "OpenDOORCore.UnlockEventMethod",
+                        "usr": "s:12OpenDOORCore17UnlockEventMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockEventMethodO15remoteDoorScoutyA2CmF",
+            "mangledName": "$s12OpenDOORCore17UnlockEventMethodO15remoteDoorScoutyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11042,7 +12635,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventStatusO7startedyA2CmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventStatusO7startedyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11099,7 +12695,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventStatusO19connectForSetupSyncyAcA0C7AttemptO_tcACmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventStatusO19connectForSetupSyncyAcA0C7AttemptO_tcACmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11156,7 +12755,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventStatusO9setupSyncyAcA0C7AttemptO_tcACmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventStatusO9setupSyncyAcA0C7AttemptO_tcACmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11193,7 +12795,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventStatusO17updateSyncPackageyA2CmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventStatusO17updateSyncPackageyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11250,7 +12855,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventStatusO010connectForC0yAcA0C7AttemptO_tcACmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventStatusO010connectForC0yAcA0C7AttemptO_tcACmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11307,7 +12915,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventStatusO6unlockyAcA0C7AttemptO_tcACmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventStatusO6unlockyAcA0C7AttemptO_tcACmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11357,7 +12968,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventStatusO6failedyAcA0C13FailureReasonOcACmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventStatusO6failedyAcA0C13FailureReasonOcACmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11394,7 +13008,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventStatusO8canceledyA2CmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventStatusO8canceledyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11431,7 +13048,10 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockEventStatusO7successyA2CmF",
             "mangledName": "$s12OpenDOORCore17UnlockEventStatusO7successyA2CmF",
-            "moduleName": "OpenDOORCore"
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Function",
@@ -11534,6 +13154,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : OpenDOORCore.UnlockEventsListener>",
             "sugared_genericSig": "<Self where Self : OpenDOORCore.UnlockEventsListener>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
@@ -11812,6 +13435,166 @@
             "declKind": "EnumElement",
             "usr": "s:12OpenDOORCore17UnlockFailureCodeO10unexpectedyA2CmF",
             "mangledName": "$s12OpenDOORCore17UnlockFailureCodeO10unexpectedyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockFailureCode.Type) -> OpenDOORCore.UnlockFailureCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockFailureCode",
+                    "printedName": "OpenDOORCore.UnlockFailureCode",
+                    "usr": "s:12OpenDOORCore17UnlockFailureCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockFailureCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockFailureCode",
+                        "printedName": "OpenDOORCore.UnlockFailureCode",
+                        "usr": "s:12OpenDOORCore17UnlockFailureCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockFailureCodeO12networkErroryA2CmF",
+            "mangledName": "$s12OpenDOORCore17UnlockFailureCodeO12networkErroryA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remoteUnlockInProgress",
+            "printedName": "remoteUnlockInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockFailureCode.Type) -> OpenDOORCore.UnlockFailureCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockFailureCode",
+                    "printedName": "OpenDOORCore.UnlockFailureCode",
+                    "usr": "s:12OpenDOORCore17UnlockFailureCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockFailureCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockFailureCode",
+                        "printedName": "OpenDOORCore.UnlockFailureCode",
+                        "usr": "s:12OpenDOORCore17UnlockFailureCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockFailureCodeO06remoteC10InProgressyA2CmF",
+            "mangledName": "$s12OpenDOORCore17UnlockFailureCodeO06remoteC10InProgressyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remoteUnlockFailed",
+            "printedName": "remoteUnlockFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockFailureCode.Type) -> OpenDOORCore.UnlockFailureCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockFailureCode",
+                    "printedName": "OpenDOORCore.UnlockFailureCode",
+                    "usr": "s:12OpenDOORCore17UnlockFailureCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockFailureCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockFailureCode",
+                        "printedName": "OpenDOORCore.UnlockFailureCode",
+                        "usr": "s:12OpenDOORCore17UnlockFailureCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockFailureCodeO06remoteC6FailedyA2CmF",
+            "mangledName": "$s12OpenDOORCore17UnlockFailureCodeO06remoteC6FailedyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remoteUnlockTimedOut",
+            "printedName": "remoteUnlockTimedOut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockFailureCode.Type) -> OpenDOORCore.UnlockFailureCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockFailureCode",
+                    "printedName": "OpenDOORCore.UnlockFailureCode",
+                    "usr": "s:12OpenDOORCore17UnlockFailureCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockFailureCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockFailureCode",
+                        "printedName": "OpenDOORCore.UnlockFailureCode",
+                        "usr": "s:12OpenDOORCore17UnlockFailureCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore17UnlockFailureCodeO06remoteC8TimedOutyA2CmF",
+            "mangledName": "$s12OpenDOORCore17UnlockFailureCodeO06remoteC8TimedOutyA2CmF",
             "moduleName": "OpenDOORCore",
             "declAttributes": [
               "RawDocComment"
@@ -12552,6 +14335,46 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "remoteUnlockNotAllowed",
+            "printedName": "remoteUnlockNotAllowed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenDOORCore.UnlockFailureReason.Type) -> OpenDOORCore.UnlockFailureReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnlockFailureReason",
+                    "printedName": "OpenDOORCore.UnlockFailureReason",
+                    "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenDOORCore.UnlockFailureReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnlockFailureReason",
+                        "printedName": "OpenDOORCore.UnlockFailureReason",
+                        "usr": "s:12OpenDOORCore19UnlockFailureReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OpenDOORCore19UnlockFailureReasonO06remoteC10NotAllowedyA2CmF",
+            "mangledName": "$s12OpenDOORCore19UnlockFailureReasonO06remoteC10NotAllowedyA2CmF",
+            "moduleName": "OpenDOORCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -12730,431 +14553,501 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 5,
       "value": "\"MKO\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 202,
       "length": 5,
       "value": "\"BLE\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 260,
       "length": 10,
       "value": "\"PASSCODE\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 5,
       "value": "\"NFC\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 13,
       "value": "\"ANDROID_NFC\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 9,
       "value": "\"DESFIRE\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 502,
       "length": 16,
       "value": "\"SCHEDULED_LOCK\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 579,
       "length": 18,
       "value": "\"SCHEDULED_UNLOCK\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 649,
       "length": 17,
       "value": "\"MECHANICAL_LOCK\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 716,
       "length": 13,
       "value": "\"TAP_TO_LOCK\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 781,
       "length": 10,
       "value": "\"BLE_LOCK\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 980,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 14,
       "value": "\"LOCK_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 1132,
       "length": 15,
       "value": "\"GUEST_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 1232,
       "length": 26,
       "value": "\"OUTSIDE_QUALIFIED_ACCESS\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 1339,
       "length": 22,
       "value": "\"UNKNOWN_TIME_FAILURE\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 1419,
       "length": 13,
       "value": "\"NFC_FAILURE\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 1491,
       "length": 11,
       "value": "\"INCORRECT\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 1567,
       "length": 18,
       "value": "\"DEADBOLT_APPLIED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/AccessLogs\/LatchAccessLog.swift",
       "kind": "StringLiteral",
       "offset": 1643,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Authentication\/Core\/ConsentController.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Authentication\/Core\/ConsentController.swift",
       "kind": "StringLiteral",
-      "offset": 429,
+      "offset": 639,
       "length": 35,
       "value": "\"https:\/\/door.com\/terms-of-service\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Authentication\/Core\/ConsentController.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Authentication\/Core\/ConsentController.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 707,
       "length": 26,
       "value": "\"https:\/\/door.com\/privacy\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Authentication\/Core\/UserSession.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Authentication\/Core\/UserSession.swift",
       "kind": "IntegerLiteral",
       "offset": 245,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
       "kind": "StringLiteral",
       "offset": 642,
       "length": 13,
       "value": "\"environment\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
       "kind": "Dictionary",
       "offset": 698,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
       "kind": "BooleanLiteral",
       "offset": 739,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
       "kind": "Array",
-      "offset": 1628,
+      "offset": 1867,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Client\/DOORClientImplementation.swift",
       "kind": "Dictionary",
-      "offset": 2741,
+      "offset": 3448,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
       "kind": "IntegerLiteral",
       "offset": 889,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
       "kind": "IntegerLiteral",
       "offset": 964,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceController.swift",
       "kind": "Dictionary",
-      "offset": 10535,
+      "offset": 10283,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceScanBroker.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceScanBroker.swift",
       "kind": "StringLiteral",
       "offset": 1057,
       "length": 33,
       "value": "\"com.door.deviceScanBroker.cache\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceScanBroker.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/DeviceScanBroker.swift",
       "kind": "Array",
       "offset": 1134,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/ScanCoordinator.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/ScanCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 32,
       "value": "\"com.door.deviceController.scan\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/ScanCoordinator.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/ScanCoordinator.swift",
       "kind": "Dictionary",
       "offset": 706,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/ScanCoordinator.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Device\/ScanCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 737,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Extensions\/GroupKeychainExtensions.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Extensions\/GroupKeychainExtensions.swift",
       "kind": "StringLiteral",
       "offset": 131,
       "length": 13,
       "value": "\"UserSession\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Guest\/GuestInviteCoordinator.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Guest\/GuestInviteCoordinator.swift",
       "kind": "Array",
-      "offset": 379,
+      "offset": 242,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Guest\/RevokeGuestError+Mapping.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Guest\/RevokeGuestError+Mapping.swift",
       "kind": "StringLiteral",
-      "offset": 125,
+      "offset": 116,
       "length": 31,
       "value": "\"PASSCODE_TYPE_CANT_BE_REVOKED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/NetworkError\/ServiceNetworkError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Intercom\/IntercomSettingsService.swift",
+      "kind": "StringLiteral",
+      "offset": 1475,
+      "length": 25,
+      "value": "\"NO_PHONE_NUMBER_ON_FILE\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Intercom\/IntercomSettingsService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1546,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/NetworkError\/ServiceNetworkError.swift",
       "kind": "IntegerLiteral",
       "offset": 392,
       "length": 3,
       "value": "401"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/NetworkError\/ServiceNetworkError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/NetworkError\/ServiceNetworkError.swift",
       "kind": "IntegerLiteral",
       "offset": 436,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/SyncKit\/CachingSyncConfigsRepository.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/RemoteUnlock\/RemoteUnlockController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 850,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/RemoteUnlock\/RemoteUnlockController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 906,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/RemoteUnlock\/RemoteUnlockController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 957,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/RemoteUnlock\/RemoteUnlockController.swift",
+      "kind": "Dictionary",
+      "offset": 1294,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/SyncKit\/CachingSyncConfigsRepository.swift",
       "kind": "IntegerLiteral",
       "offset": 271,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Utilities\/EventBroadcaster.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Utilities\/EventBroadcaster.swift",
       "kind": "Dictionary",
       "offset": 140,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Utilities\/EventBroadcaster.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Internal\/Utilities\/EventBroadcaster.swift",
       "kind": "StringLiteral",
       "offset": 189,
       "length": 27,
       "value": "\"com.door.eventBroadcaster\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 30,
       "value": "\"EMAIL_REQUIRED_FOR_PERMANENT\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 25,
       "value": "\"EMAIL_OR_PHONE_REQUIRED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 455,
       "length": 26,
       "value": "\"EMAIL_AND_PHONE_PROVIDED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 15,
       "value": "\"INVALID_PHONE\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 660,
       "length": 20,
       "value": "\"INVALID_START_TIME\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 786,
       "length": 24,
       "value": "\"END_TIME_NOT_SUPPORTED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 884,
       "length": 20,
       "value": "\"USER_CAN_NOT_SHARE\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 27,
       "value": "\"SHAREABLE_ACCESS_REQUIRED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 1128,
       "length": 21,
       "value": "\"SHARING_NOT_ENABLED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Errors\/InviteGuestError.swift",
       "kind": "StringLiteral",
       "offset": 1286,
       "length": 41,
       "value": "\"REQUESTED_TIME_OUTSIDE_SHAREABLE_ACCESS\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
       "kind": "StringLiteral",
       "offset": 220,
       "length": 23,
       "value": "\"BLUETOOTH_UNAVAILABLE\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
       "kind": "StringLiteral",
       "offset": 326,
       "length": 22,
       "value": "\"DEVICE_NOT_SUPPORTED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 18,
       "value": "\"KEY_FETCH_FAILED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 19,
       "value": "\"SETUP_SYNC_FAILED\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
       "kind": "StringLiteral",
       "offset": 651,
       "length": 17,
       "value": "\"TRANSPORT_ERROR\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
       "kind": "StringLiteral",
       "offset": 739,
       "length": 12,
       "value": "\"UNEXPECTED\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 15,
+      "value": "\"NETWORK_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 27,
+      "value": "\"REMOTE_UNLOCK_IN_PROGRESS\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 22,
+      "value": "\"REMOTE_UNLOCK_FAILED\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ios\/packages\/integrations\/OpenDOOR\/OpenDOORSDK\/Sources\/OpenDOORCore\/Public\/Unlock\/UnlockFailureCode.swift",
+      "kind": "StringLiteral",
+      "offset": 1186,
+      "length": 25,
+      "value": "\"REMOTE_UNLOCK_TIMED_OUT\""
     }
   ]
 }
